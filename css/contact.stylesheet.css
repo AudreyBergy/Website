@@ -12,15 +12,6 @@ a:hover {color: grey;}
 #selected {color:grey;}
 
 
-.context {
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
-  color: grey;
-  font-size: 14px;
-  line-height: 1.5;
-  color: grey;
-}
-
 .wrapper {margin-left: auto;
           margin-right: auto;
           width: 1000px;
@@ -58,22 +49,21 @@ a:hover {color: grey;}
             padding-top: 30px;
             }
 
+h1 {font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top:70px;
+    letter-spacing: 0.15em;
+    font-size: 30px;
+    color: #000;}
 
+p{font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+  line-height: 1.5;
+  color: grey;
+  }
 
-.box {
-  padding-top: -30px;
-  width: 450px;
-  height: 500px;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.context img {padding-top: 0px;
-              width: 450px;
-              }
-
-.context p {padding-top: 20px;
-           text-align: left;}
 
 
 .footer{  width: 1000px;
