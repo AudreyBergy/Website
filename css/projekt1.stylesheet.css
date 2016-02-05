@@ -32,7 +32,8 @@ a:hover {color: grey;}
 }
 
 .header .name {font-family: 'Inconsolata', ;
-                font-size: 25px;
+                font-size: 20px;
+                letter-spacing: 1;
                 color: grey;
                 display: inline-block;
                 vertical-align: baseline;
@@ -42,7 +43,8 @@ a:hover {color: grey;}
 
 
 .main-nav a {
-          font-size: 19px;
+          font-size: 15px;
+          letter-spacing: 2;
           float: right;
           margin-right: 15px;
           display: inline-block;
@@ -66,18 +68,39 @@ a:hover {color: grey;}
 }
 
 .img-box img {
+        padding-top: 100px;
         width: 100%;
         height: auto;
         text-align: center;
         }
 
-.img-box img{
+.img-box:hover img{
             -moz-transform: scale(1.2,1.2);
             -webkit-transform: scale(1.2,1.2);
             transform: scale(1.2,1.2);
             transition: all 4s ease-in-out;
           }
 
+
+.context {display: inline-block;
+          width: 50%;
+          margin-top: 20px;}
+
+.sketch-img   {display: inline-block;
+              width: 50%;
+              float:right;
+              margin-top: 40px;}
+
+.sketch-img img {width: 500px;}
+
+
+p {font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: grey;
+  font-size: 14px;
+  line-height: 1.5;
+  color: grey;
+}
 
 .footer{  width: 1000px;
           height:250px;
