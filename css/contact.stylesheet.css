@@ -14,14 +14,16 @@ a:hover {color: grey;}
 
 .wrapper {margin-left: auto;
           margin-right: auto;
-          width: 1000px;
-          height: 600px;}
+          width: 1200px;
+          height: 600px;
+          }
 
 
 .header {width: 100%;
         height:60px;
         margin-left: auto;
-        margin-right:auto;}
+        margin-right:auto;
+        }
 
 .header {display: flex;
         justify-content: space-between;
@@ -39,8 +41,6 @@ a:hover {color: grey;}
               vertical-align: baseline;
               padding-top: 30px;
               }
-
-.main-nav {float: right; }
 
 .main-nav a {font-size: 15px;
             letter-spacing: 2;
@@ -66,10 +66,13 @@ p{font-family: 'Open Sans', sans-serif;
   color: grey;
   }
 
+.wrapper img { margin-left: 317px;
+                }
 
 
-.footer{  width: 1000px;
+.footer{  width: 1200px;
           height:250px;
+          text-align: center;
           margin-top: 60px;
           margin-left: auto;
           margin-right: auto;
